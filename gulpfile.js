@@ -7,6 +7,9 @@ var wiredep = require('wiredep').stream;
 // Load plugins
 var $ = require('gulp-load-plugins')();
 
+// load mocha testing framework
+var mocha = require('gulp-mocha');
+
 
 // Styles
 gulp.task('styles', function () {
@@ -62,6 +65,14 @@ gulp.task('build', ['html', 'bundle', 'images']);
 // Default task
 gulp.task('default', ['clean'], function () {
     gulp.start('build');
+    gulp.src('app.js')
+        .pipe(mocha({reporter: 'nyan'}));
+});
+
+// test
+gulp.task('test', ['clean'], function () {
+    gulp.src('app.js')
+        .pipe(mocha({reporter: 'nyan'}));
 });
 
 // Connect
