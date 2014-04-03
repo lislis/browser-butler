@@ -3,75 +3,54 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <title>browseButler</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<head>
+    <meta charset="utf-8">
+    <title>browseButler</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <!-- build:css styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
 
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-
-        <div class="container">
-            <div class="header">
-                <!-- <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul> -->
-                <h3 class="text-muted">Browser Butler</h3>
-            </div>
-            <!-- <div>
-                <form role="form" id="js-checkString">
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="userAgentInput" placeholder="userAgent string">
-                  </div>
-                  <button type="submit" class="btn btn-info">check this one</button>
-                </form>
-            </div> -->
+</head>
+<body>
+    <!--[if lt IE 10]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="container">
+        <div class="header">
+            <h1 class="logo">Browser Butler</h1>
+        </div>
+        <noscript>
             <div>
-                <noscript>
-                    <p class="alert alert-warning">Your Javascript is disabled. Enable it to see Browser Butler's results.</p>
-                </noscript>
-                <div id="js-output"></div>
-                <div id="js-server-output"></div>
+                <p class="alert alert-warning">Your Javascript is disabled. Enable it to see Browser Butler's results.</p>
             </div>
-            <div>
-                <h4>Did I get everything right?</h4>
-                <p>Please report mistakes and errors by <a class="" id="js-feedback" href="mailto:mail@lisapassing.de?subject=Browser Butler: feedback w/ js disabled">sending my developer a mail</a><!--  or <a href="#">opening an issue on github</a> -->.</p>
-            </div>
-            <div class="footer">
-                <p>&clubs; &hearts; &spades; &diams;</p>
-            </div>
-
+        </noscript>
+        <div id="js-output">
+        </div>
+        <div id="js-server-output">
+        </div>
+        <div>
+            <h4>Did I get everything right?</h4>
+            <p>Please report mistakes and errors by <a class="" id="js-feedback" href="mailto:mail@lisapassing.de?subject=Browser Butler: feedback w/ js disabled">sending my developer a mail</a> or <a href="https://github.com/lislis/browser-butler/issues">opening an issue on github</a>.</p>
+        </div>
+        <div class="footer">
+            <p class="pull-right"><a href="https://github.com/lislis/browser-butler" title="view the source code">Code on Github</a></p>
         </div>
 
-
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="bower_components/jquery/jquery.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
+    </div>
 
 
-        <!-- build:js scripts/plugins.js -->
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
 
-        <!-- endbuild -->
-
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
 </body>
 </html>
