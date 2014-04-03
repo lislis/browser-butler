@@ -13,6 +13,6 @@ If you want to add some, open an isssue and paste your userAgent string in there
 
 ## There are other sites like this, why not use those?
 
-I know like http://whatsmybrowser.org, right? For two reasons:  
-- whytsmybrowser is not open source. There is no change to see how it deals with the userAgent.  
+I know, like http://whatsmybrowser.org, right? For two reasons:  
+- whytsmybrowser is not open source. There is no chance to see how it deals with the userAgent.  
 - try to explain to a client who doesn't know what browser they're using the neccessity to visit a completely unrelated webpage. Seriously.
