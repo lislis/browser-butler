@@ -4,7 +4,7 @@
 
 This actually for your mental health.  
 BrowserButler is meant to live in a subdirectory on your client's server. Actually only the /app folder.  
-So when your client calls you and says the site is broken, but has no idea that computer or browser they're using, just tell them to go to htt://yourclientproject.com/browser (or whatever) and let them read the text out loud (or send an email).  
+So when your client calls you and says the site is broken, but has no idea what computer or browser they're using, just tell them to go to htt://yourclientproject.com/browser (or whatever) and let them read the text out loud (or send you an email).  
 
 ## Can BrowserButler detect everything?
 
